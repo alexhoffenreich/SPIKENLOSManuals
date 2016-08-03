@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<main>
+
+    <manuals>
+        <item file-name="operation_manual.htm" thumb="operation_manual_thumb.jpg">
+            <title>System Operation Manual</title>
+            <description>SPIKE NLOS system operation manual</description>
+        </item>
+        <item file-name="gms_manual_notoc.htm" thumb="gms_manual_thumb.jpg">
+            <title>GMS Operation Manual</title>
+            <description>-</description>
+
+        </item>
+        <item file-name="slk_manual_notoc.htm" thumb="slk_manual_thumb.jpg">
+            <title>SLK Operation Manual</title>
+            <description>Software Loading Kit Operation Manual</description>
+        </item>
+    </manuals>
+    <presentations>
+        <item file-name="Weapon System Description and structure" num="1"
+            thumb="slk_manual_thumb.jpg">
+            <title>Weapon System Description</title>
+            <description>Description of main properties and structure of the weapon system.
+            </description>
+        </item>
+        <item file-name="Missile Structure" num="2" thumb="">
+            <title>Missile Structure</title>
+            <description>Description of structure and theory of operation of the missile
+            </description>
+        </item>
+        <item file-name="Missile Seeker Image" num="3" thumb="">
+            <title>Missile Seeker Image</title>
+            <description>-</description>
+        </item>
+        <item file-name="Firing Modes" num="4" thumb="">
+            <title>Firing Modes</title>
+            <description>-</description>
+        </item>
+        <item file-name="HMI Basic" num="5" thumb="">
+            <title>HMI Basic</title>
+            <description>-</description>
+        </item>
+        <item file-name="MG1" num="6" thumb="">
+            <title>Manual Guidance #1/3</title>
+            <description>-</description>
+        </item>
+        <item file-name="MG2" num="7" thumb="">
+            <title>Manual Guidance #2/3</title>
+            <description>-</description>
+        </item>
+        <item file-name="MG3" num="8" thumb="">
+            <title>Manual Guidance #3/3</title>
+            <description>-</description>
+        </item>
+        <item file-name="AG1" num="9" thumb="">
+            <title>Automatic Guidance #1/3</title>
+            <description>-</description>
+        </item>
+        <item file-name="AG2" num="10" thumb="">
+            <title>Automatic Guidance #2/3</title>
+            <description>-</description>
+        </item>
+        <item file-name="AG3" num="11" thumb="">
+            <title>Automatic Guidance #3/3</title>
+            <description>-</description>
+        </item>
+        <item file-name="VCS and External Video" num="12" thumb="">
+            <title>VCS and External Video</title>
+            <description>-</description>
+        </item>
+        <item file-name="Mission Procedure" num="13" thumb="">
+            <title>Mission Procedure</title>
+            <description>-</description>
+        </item>
+        <item file-name="System Navigation" num="14" thumb="">
+            <title>System Navigation</title>
+            <description>-</description>
+        </item>
+
+        <item file-name="TSOP" num="15" thumb="">
+            <title>TSOP - Tactical Standing Operation Procedure</title>
+            <description>-</description>
+        </item>
+        <item file-name="System Messages" num="16" thumb="">
+            <title>System Messages</title>
+            <description>-</description>
+        </item>
+        <item file-name="Misfire" num="17" thumb="">
+            <title>Misfire</title>
+            <description>-</description>
+        </item>
+        <item file-name="Flight Interferences" num="18" thumb="">
+            <title>Flight Interferences</title>
+            <description>-</description>
+        </item>
+    </presentations>
+</main>

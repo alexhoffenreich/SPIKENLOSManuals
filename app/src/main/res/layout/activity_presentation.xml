@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.alex_lenovi.spikenlosmanuals.PresentationActivity">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="false"
+        android:layout_below="@id/app_bar"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <RelativeLayout
+            android:layout_width="800dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentRight="false">
+
+            <ImageView
+                android:id="@+id/slide_img_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentEnd="false"
+
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="true"
+                android:layout_alignWithParentIfMissing="false"
+                android:layout_centerHorizontal="true"
+                android:padding="8dp" />
+
+            <RelativeLayout
+                android:id="@+id/slide_drawing_pad"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/prev_slide_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:drawable/ic_media_previous"
+                    android:onClick="onPreviousSlideButtonClick" />
+
+
+                <EditText
+                    android:id="@+id/slide_num_text"
+                    android:layout_width="106dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:singleLine="false"
+
+                    android:textAlignment="center" />
+
+                <ImageButton
+                    android:id="@+id/next_slide_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:background="@android:drawable/ic_media_next"
+                    android:onClick="onNextSlideButtonClick" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remarks"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/remarks_edit_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:elegantTextHeight="true"
+                android:gravity="top|left"
+                android:inputType="textMultiLine"
+                android:text="Medium Text"
+                android:textAppearance="@android:style/TextAppearance.Holo.Small" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.example.alex_lenovi.spikenlosmanuals.ColorPickerSpinner
+                    android:id="@+id/color_picker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    />
+
+                <com.example.alex_lenovi.spikenlosmanuals.StrokeWidthPickerSpinner
+                    android:id="@+id/stroke_width_picker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageButton
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="@android:drawable/ic_menu_close_clear_cancel"
+                    android:onClick="onClearScratchButtonClick"
+
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:paddingTop="4dp"
+        android:text="@string/classification"
+        android:textColor="#ffff"
+        android:textStyle="bold" />
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.example.alex_lenovi.spikenlosmanuals.TocDrawerFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/toc_title_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Table Of Contents" />
+
+        <ListView
+            android:id="@+id/toc_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toc_title_text" />
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

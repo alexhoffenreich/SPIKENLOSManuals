@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.example.alex_lenovi.spikenlosmanuals.ColorPickerSpinner
+            android:id="@+id/color_picker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+
+        <com.example.alex_lenovi.spikenlosmanuals.StrokeWidthPickerSpinner
+            android:id="@+id/stroke_width_picker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@android:drawable/ic_menu_close_clear_cancel"
+            android:onClick="onClearScratchButtonClick"
+
+            />
+    </LinearLayout>
+</FrameLayout>
