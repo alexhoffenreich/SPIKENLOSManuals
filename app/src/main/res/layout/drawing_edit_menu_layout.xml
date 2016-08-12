@@ -9,14 +9,14 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <com.example.alex_lenovi.spikenlosmanuals.ColorPickerSpinner
+        <com.example.alex_lenovi.SPIKELRCourse.SratchBoard.ColorPickerSpinner
             android:id="@+id/color_picker"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
             />
 
-        <com.example.alex_lenovi.spikenlosmanuals.StrokeWidthPickerSpinner
+        <com.example.alex_lenovi.SPIKELRCourse.SratchBoard.StrokeWidthPickerSpinner
             android:id="@+id/stroke_width_picker"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />

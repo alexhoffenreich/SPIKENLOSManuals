@@ -4,7 +4,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
 
-    <com.example.alex_lenovi.spikenlosmanuals.StrokeWidthView
+    <com.example.alex_lenovi.SPIKELRCourse.SratchBoard.StrokeWidthView
         android:id="@+id/stroke_width_view"
         android:layout_width="32dp"
         android:layout_height="24dp"

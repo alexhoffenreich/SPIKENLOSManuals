@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<main>
+    <modules>
+        <module default-view="RTF" id="mclu">
+            <links>
+                <link file-ref="mclu_description" type="description">
+                    <title>MCLU Desctiption</title>
+                    <details></details>
+                </link>
+                <link file-ref="mclu_ri" type="removal_intallation">
+                    <title>MCU Removal and Installation</title>
+                    <details></details>
+                </link>
+                <link file-ref="mclu_troubleshooting" type="troubleshooting">
+                    <title>MCLU Troubleshooting</title>
+                </link>
+            </links>
+        </module>
+        <module default-view="RTA" id="tpdu">
+            <links>
+                <link file-ref="tpdu_description" type="description">
+                    <title>TPDU Desctiption</title>
+                    <details></details>
+                </link>
+                <link file-ref="tpdu_ri" type="removal_intallation">
+                    <title>TPDU Removal and Installation</title>
+                    <details></details>
+                </link>
+                <link file-ref="tpdu_inspection" type="inspection">
+                    <title>TPDU Inspection</title>
+                </link>
+                <link file-ref="tpdu_troubleshooting" type="troubleshooting">
+                    <title>TPDU Troubleshooting</title>
+                </link>
+
+            </links>
+        </module>
+        <module default-view="LTA" id="TFIC Assy">
+            <links>
+                <link file-ref="tfic_description" type="description">
+                    <title>TFIC Desctiption</title>
+                    <details></details>
+                </link>
+                <link file-ref="tfic_ri" type="removal_intallation">
+                    <title>TFIC Removal and Installation</title>
+                    <details></details>
+                </link>
+                <link file-ref="tfic_inspection" type="inspection">
+                    <title>TFIC Inspection</title>
+                </link>
+                <link file-ref="tfic_troubleshooting" type="troubleshooting">
+                    <title>TFIC Troubleshooting</title>
+                </link>
+
+            </links>
+        </module>
+        <module default-view="RTF" id="Commpod Assy">
+            <links>
+                <link file-ref="commpod_description" type="description">
+                    <title>Commpod Desctiption</title>
+                    <details></details>
+                </link>
+                <link file-ref="commpod_ri" type="removal_intallation">
+                    <title>Commpod Removal and Installation</title>
+                    <details></details>
+                </link>
+                <link file-ref="commpod_inspection" type="inspection">
+                    <title>Commpod Inspection</title>
+                </link>
+                <link file-ref="commpod_troubleshooting" type="troubleshooting">
+                    <title>Commpod Troubleshooting</title>
+                </link>
+
+            </links>
+        </module>
+    </modules>
+</main>
